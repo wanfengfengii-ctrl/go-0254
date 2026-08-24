@@ -1,0 +1,94 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+}
+body {
+  margin: 0;
+  background: #0b1220;
+  color: #e6edf3;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #1f2a3d;
+}
+main {
+  padding: 1.5rem 2rem;
+  display: grid;
+  gap: 1.5rem;
+  max-width: 900px;
+}
+section {
+  border: 1px solid #1f2a3d;
+  border-radius: 8px;
+  padding: 1rem;
+}
+dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.4rem 1rem;
+  margin: 0;
+}
+dt { color: #8b98a9; }
+dd { margin: 0; }
+.muted { color: #8b98a9; }
+.badge {
+  background: #12333d;
+  color: #6ee7b7;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+form {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+input {
+  background: #0d1626;
+  border: 1px solid #2a3a52;
+  color: #e6edf3;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+button {
+  background: #1f6feb;
+  border: 0;
+  color: white;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+.meter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.8rem 0;
+}
+.meter-step {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  background: #16202e;
+  color: #5d6b7d;
+  border: 1px solid #223047;
+}
+.meter-step.on {
+  background: #12333d;
+  color: #6ee7b7;
+  border-color: #1f5a5f;
+}
+.meter-step.current {
+  outline: 2px solid #6ee7b7;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
