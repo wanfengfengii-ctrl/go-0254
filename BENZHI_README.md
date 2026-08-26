@@ -1,3 +1,5 @@
+基于 Go 实现的深海无人潜航器放行管理 Web 项目，一款前后端应用，处理任务建档、设备复验与放行状态管理。
+
 # abyssal-auv-release-gate
 
 本 Git 项目来自模型完成任务后的 workspace，不包含嵌套 .git 记录或本地构建产物。
